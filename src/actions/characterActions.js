@@ -11,8 +11,7 @@ export const fetchCharacters = () => dispatch => {
       });
     })
     .catch(err => {
-      console.log(err);
-      return err;
+      throw err;
     });
 
 };
