@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Characters component renders a Characters 1`] = `
+<ul>
+  <li
+    key="person person"
+  >
+    <Character
+      character={
+        Object {
+          "image": "image@image.png",
+          "name": "person person",
+        }
+      }
+    />
+  </li>
+  <li
+    key="yolo dude bro"
+  >
+    <Character
+      character={
+        Object {
+          "image": "holysmokes.png",
+          "name": "yolo dude bro",
+        }
+      }
+    />
+  </li>
+  <li
+    key="sassy queen"
+  >
+    <Character
+      character={
+        Object {
+          "image": "neatPic.png",
+          "name": "sassy queen",
+        }
+      }
+    />
+  </li>
+</ul>
+`;
