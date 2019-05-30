@@ -3,15 +3,29 @@ import PropTypes from 'prop-types';
 import Character from './Character';
 
 function Characters({ characters }) {
+
+  const liStyle = {
+    padding: '10px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  };
+
   const characterList = characters.map(character => {
     return (
-      <li key={character.name}>
+      <li style={liStyle} key={character.name}>
         <Character character={character} />
       </li>
     );
   });
 
-  return <ul>{characterList}</ul>;
+  const ulStyle = {
+    display: 'flex',
+    flexWrap: 'wrap'
+  };
+
+  return <ul style={ulStyle} >{characterList}</ul>;
 }
 
 Characters.propTypes = {
