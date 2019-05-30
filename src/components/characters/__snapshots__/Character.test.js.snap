@@ -4,6 +4,11 @@ exports[`Character component renders a Character 1`] = `
 <Fragment>
   <img
     src="image@image.png"
+    style={
+      Object {
+        "width": "150px",
+      }
+    }
   />
   <h3>
     person person

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Characters component renders a Characters 1`] = `
+<ul
+  style={
+    Object {
+      "display": "flex",
+      "flexWrap": "wrap",
+    }
+  }
+>
+  <li
+    key="person person"
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "padding": "10px",
+      }
+    }
+  >
+    <Character
+      character={
+        Object {
+          "image": "image@image.png",
+          "name": "person person",
+        }
+      }
+    />
+  </li>
+  <li
+    key="yolo dude bro"
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "padding": "10px",
+      }
+    }
+  >
+    <Character
+      character={
+        Object {
+          "image": "holysmokes.png",
+          "name": "yolo dude bro",
+        }
+      }
+    />
+  </li>
+  <li
+    key="sassy queen"
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "padding": "10px",
+      }
+    }
+  >
+    <Character
+      character={
+        Object {
+          "image": "neatPic.png",
+          "name": "sassy queen",
+        }
+      }
+    />
+  </li>
+</ul>
+`;
