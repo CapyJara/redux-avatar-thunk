@@ -1,17 +1,7 @@
 import { getCharacters } from '../services/getCharacters';
+import { createAction } from 'promise-middleware-redux';
 
-export const FETCH_CHARACTERS = 'FETCH_CHARACTERS';
-
-export const fetchCharacters = () => dispatch => {
-  return getCharacters()
-    .then(character => {
-      dispatch({
-        type: FETCH_CHARACTERS,
-        payload: character
-      });
-    })
-    .catch(err => {
-      throw err;
-    });
-
-};
+export const [
+  fetchCharacters,
+  FETCH_CHARACTERS
+] = createAction('FETCH_CHARACTERS', getCharacters);
